@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-python:3.4.0
+IMAGE=mcandre/docker-python:3.3-dev
 
 all: run
 

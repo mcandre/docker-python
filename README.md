@@ -8,10 +8,10 @@ https://registry.hub.docker.com/u/mcandre/docker-python/
 
 ```
 $ make
-docker run --rm mcandre/docker-python:3.4.0 python --version
-Python 3.4.0
-docker run --rm mcandre/docker-python:3.4.0 pip --version
-pip 1.5.4 from /root/.pyenv/versions/3.4.0/lib/python3.4/site-packages (python 3.4)
+docker run --rm mcandre/docker-python:3.3-dev python --version
+Python 3.3.6
+docker run --rm mcandre/docker-python:3.3-dev pip --version
+pip 7.1.0 from /root/.pyenv/versions/3.3-dev/lib/python3.3/site-packages (python 3.3)
 ```
 
 # REQUIREMENTS
