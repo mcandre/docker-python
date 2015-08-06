@@ -8,10 +8,10 @@ https://registry.hub.docker.com/u/mcandre/docker-python/
 
 ```
 $ make
-docker run --rm mcandre/docker-python:2.7.10 python --version
-Python 2.7.10
-docker run --rm mcandre/docker-python:2.7.10 pip --version
-pip 6.1.1 from /root/.pyenv/versions/2.7.10/lib/python2.7/site-packages (python 2.7)
+docker run --rm mcandre/docker-python:2.7.9 python --version
+Python 2.7.9
+docker run --rm mcandre/docker-python:2.7.9 pip --version
+pip 1.5.6 from /root/.pyenv/versions/2.7.9/lib/python2.7/site-packages (python 2.7)
 ```
 
 # REQUIREMENTS
