@@ -8,10 +8,10 @@ https://registry.hub.docker.com/u/mcandre/docker-python/
 
 ```
 $ make
-docker run --rm mcandre/docker-python:2.5.3 python --version
-Python 2.5.3
-docker run --rm mcandre/docker-python:2.5.3 pip --version
-pip 1.3.1 from /root/.pyenv/versions/2.5.3/lib/python2.5/site-packages/pip-1.3.1-py2.5.egg (python 2.5)
+docker run --rm mcandre/docker-python:2.5.2 python --version
+Python 2.5.2
+docker run --rm mcandre/docker-python:2.5.2 pip --version
+pip 1.3.1 from /root/.pyenv/versions/2.5.2/lib/python2.5/site-packages/pip-1.3.1-py2.5.egg (python 2.5)
 ```
 
 # REQUIREMENTS
