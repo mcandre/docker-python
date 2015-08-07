@@ -8,8 +8,8 @@ https://registry.hub.docker.com/u/mcandre/docker-python/
 
 ```
 $ make
-docker run --rm mcandre/docker-python:2.2.3 python -c 'import sys; print(sys.version)'
-2.2.3 (#1, Aug  7 2015, 05:23:39)
+docker run --rm mcandre/docker-python:2.1.3 python -c 'import sys; print(sys.version)'
+2.1.3 (#1, Aug  7 2015, 05:25:42)
 [GCC 4.8.4]
 ```
 
