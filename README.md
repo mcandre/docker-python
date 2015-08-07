@@ -8,11 +8,11 @@ https://registry.hub.docker.com/u/mcandre/docker-python/
 
 ```
 $ make
-docker run --rm mcandre/docker-python:2.4.5 python -c 'import sys; print(sys.version)'
-2.4.5 (#1, Aug  7 2015, 04:23:05)
+docker run --rm mcandre/docker-python:2.4.4 python -c 'import sys; print(sys.version)'
+2.4.4 (#1, Aug  7 2015, 04:26:27)
 [GCC 4.8.4]
-docker run --rm mcandre/docker-python:2.4.5 pip --version
-pip 1.1 from /root/.pyenv/versions/2.4.5/lib/python2.4/site-packages/pip-1.1-py2.4.egg (python 2.4)
+docker run --rm mcandre/docker-python:2.4.4 pip --version
+pip 1.1 from /root/.pyenv/versions/2.4.4/lib/python2.4/site-packages/pip-1.1-py2.4.egg (python 2.4)
 ```
 
 # REQUIREMENTS
