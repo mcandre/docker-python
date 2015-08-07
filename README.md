@@ -8,11 +8,9 @@ https://registry.hub.docker.com/u/mcandre/docker-python/
 
 ```
 $ make
-docker run --rm mcandre/docker-python:2.3.7 python -c 'import sys; print(sys.version)'
-2.3.7 (#1, Aug  7 2015, 05:12:20)
+docker run --rm mcandre/docker-python:2.2.3 python -c 'import sys; print(sys.version)'
+2.2.3 (#1, Aug  7 2015, 05:23:39)
 [GCC 4.8.4]
-docker run --rm mcandre/docker-python:2.3.7 python -c 'import setuptools; print(setuptools.__version__)'
-0.6c11
 ```
 
 # REQUIREMENTS

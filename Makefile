@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-python:2.3.7
+IMAGE=mcandre/docker-python:2.2.3
 
 all: run
 
@@ -7,7 +7,6 @@ build: Dockerfile
 
 run: clean-containers build
 	docker run --rm $(IMAGE) python -c 'import sys; print(sys.version)'
-	docker run --rm $(IMAGE) python -c 'import setuptools; print(setuptools.__version__)'
 
 clean-containers:
 	-docker ps -a | grep -v IMAGE | awk '{ print $$1 }' | xargs docker rm -f
