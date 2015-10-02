@@ -7,8 +7,11 @@ https://registry.hub.docker.com/u/mcandre/docker-python/
 # EXAMPLE
 
 ```
-$ make.
-...
+$ make
+docker run --rm mcandre/docker-python:3.0.1 python --version
+Python 3.0.1
+docker run --rm mcandre/docker-python:3.0.1 pip --version
+pip 1.3.1 from /root/.pyenv/versions/3.0.1/lib/python3.0/site-packages/pip-1.3.1-py3.0.egg (python 3.0)
 ```
 
 # REQUIREMENTS
