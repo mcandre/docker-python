@@ -1,4 +1,4 @@
 FROM mcandre/docker-pyenv
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
-RUN pyenv install 3.1.1 && \
-    pyenv global 3.1.1
+RUN pyenv install 3.0.1 && \
+    pyenv global 3.0.1
